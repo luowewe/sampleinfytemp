@@ -149,17 +149,6 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&family=Poppins:wght@400;700&display=swap");
 
-/* Reset and base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #fff;
-}
 
 /* Container styles */
 .login-container {
