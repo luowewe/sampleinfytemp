@@ -1,4 +1,18 @@
 :root {
     --white-900: rgba(255, 255, 255, 1);
     --shadow-xsmall: 0px 1px 2px 0px rgba(13, 13, 18, 0.06);
+    --others-white: rgba(255, 255, 255, 1);
+--greyscale-900: rgba(15, 23, 42, 1);
+--white-900: rgba(255, 255, 255, 1);
+--greyscale-500: rgba(102, 109, 128, 1);
+--greyscale-400: rgba(129, 136, 152, 1);
+--greyscale-0: rgba(255, 255, 255, 1);
+--greyscale-100: rgba(223, 225, 231, 1);
+--regular-none-medium-font-family: "Inter", Helvetica;
+--regular-none-medium-font-weight: 500;
+--regular-none-medium-font-size: 16px;
+--regular-none-medium-letter-spacing: 0px;
+--regular-none-medium-line-height: 16px;
+--regular-none-medium-font-style: normal;
+--body-medium-regular-font-family: "Poppins", Helvetica;
 }
