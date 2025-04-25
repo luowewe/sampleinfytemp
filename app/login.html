@@ -1,171 +1,59 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <link ref="styleshhet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <main class="login-container">
-  <header class="status-bar">
-    <svg
-      width="375"
-      height="79"
-      viewBox="0 0 375 79"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <text
-        fill="#0F172A"
-        xml:space="preserve"
-        style="white-space: pre"
-        font-family="Inter"
-        font-size="16"
-        font-weight="500"
-        letter-spacing="0em"
-      >
-        <tspan x="24" y="29.8182">9:41</tspan>
-      </text>
-      <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M297 20.5H296C295.448 20.5 295 20.9197 295 21.4375V29.5625C295 30.0803 295.448 30.5 296 30.5H297C297.552 30.5 298 30.0803 298 29.5625V21.4375C298 20.9197 297.552 20.5 297 20.5ZM291 22.5H292C292.552 22.5 293 22.9298 293 23.46V29.54C293 30.0702 292.552 30.5 292 30.5H291C290.448 30.5 290 30.0702 290 29.54V23.46C290 22.9298 290.448 22.5 291 22.5ZM287 24.5H286C285.448 24.5 285 24.9477 285 25.5V29.5C285 30.0523 285.448 30.5 286 30.5H287C287.552 30.5 288 30.0523 288 29.5V25.5C288 24.9477 287.552 24.5 287 24.5ZM282 26.5H281C280.448 26.5 280 26.9477 280 27.5V29.5C280 30.0523 280.448 30.5 281 30.5H282C282.552 30.5 283 30.0523 283 29.5V27.5C283 26.9477 282.552 26.5 282 26.5Z"
-        fill="#0F172A"
-      />
-      <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M310.637 21.2773C312.852 21.2774 314.984 22.1289 316.59 23.6557C316.711 23.7735 316.904 23.772 317.023 23.6523L318.179 22.4857C318.239 22.4249 318.273 22.3427 318.272 22.2571C318.272 22.1715 318.237 22.0897 318.176 22.0297C313.961 17.9901 307.311 17.9901 303.096 22.0297C303.035 22.0896 303.001 22.1715 303 22.257C302.999 22.3426 303.033 22.4249 303.093 22.4857L304.25 23.6523C304.369 23.7722 304.562 23.7737 304.683 23.6557C306.289 22.1288 308.42 21.2773 310.637 21.2773Z"
-        fill="#0F172A"
-      />
-      <path
-        opacity="0.35"
-        d="M326.667 18.5H346.333C347.53 18.5 348.5 19.4704 348.5 20.667V28.333C348.5 29.5296 347.53 30.5 346.333 30.5H326.667C325.47 30.5 324.5 29.5296 324.5 28.333V20.667L324.511 20.4453C324.622 19.3527 325.545 18.5 326.667 18.5Z"
-        stroke="#0F172A"
-      />
-      <text
-        fill="#AEE0E4"
-        xml:space="preserve"
-        style="white-space: pre"
-        font-family="Zen Dots"
-        font-size="45"
-        letter-spacing="0em"
-      >
-        <tspan x="140.132" y="78.85">wizi</tspan>
-      </text>
-    </svg>
-  </header>
-
-  <section class="login-content">
-    <h1 class="brand-title">wizi</h1>
-
-    <div class="login-form-container">
-      <button class="google-signin-btn" aria-label="Sign in with Google">
-        <svg
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M5.8243 11.5646L5.30218 13.5138L3.39381 13.5542C2.82349 12.4964 2.5 11.2861 2.5 9.99995C2.5 8.75627 2.80246 7.58346 3.33859 6.55078H3.339L5.03798 6.86226L5.78223 8.55105C5.62646 9.00517 5.54156 9.49267 5.54156 9.99995C5.54162 10.5505 5.64134 11.078 5.8243 11.5646Z"
-            fill="#FBBB00"
-          />
-          <path
-            d="M17.3693 8.59863C17.4554 9.05232 17.5003 9.52087 17.5003 9.99972C17.5003 10.5367 17.4439 11.0604 17.3363 11.5657C16.9712 13.2849 16.0172 14.7861 14.6957 15.8485L14.6953 15.8481L12.5553 15.7389L12.2524 13.8482C13.1294 13.3339 13.8147 12.5291 14.1757 11.5657H10.1652V8.59863H14.2342H17.3693Z"
-            fill="#518EF8"
-          />
-          <path
-            d="M14.6946 15.8486L14.695 15.849C13.4097 16.8821 11.777 17.5002 9.99971 17.5002C7.14354 17.5002 4.66032 15.9038 3.39355 13.5545L5.82404 11.5649C6.45741 13.2553 8.08804 14.4586 9.99971 14.4586C10.8214 14.4586 11.5912 14.2365 12.2517 13.8487L14.6946 15.8486Z"
-            fill="#28B446"
-          />
-          <path
-            d="M14.7868 4.22663L12.3571 6.21577C11.6735 5.78844 10.8654 5.54159 9.99957 5.54159C8.04463 5.54159 6.3835 6.80009 5.78187 8.55107L3.33861 6.5508H3.3382C4.58641 4.14422 7.10095 2.5 9.99957 2.5C11.8193 2.5 13.4879 3.14822 14.7868 4.22663Z"
-            fill="#F14336"
-          />
-        </svg>
-        <span>Sign in with google</span>
-      </button>
-
-      <div class="divider">Or</div>
-
-      <form class="login-form">
-        <div class="form-group">
-          <label for="email" class="visually-hidden">Email</label>
-          <input
-            type="email"
-            id="email"
-            class="form-input"
-            placeholder="Email"
-            required
-          />
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="element-sign-in-empty">
+            <div class="div">
+                <div class="status-bar">
+                    <div class="text-wrapper">9:41</div>
+                    <div class="mobile-signal"></div>
+                    <div class="wifi"></div>
+                    <div class="battery"></div>
+                    <div class="text-wrapper-2">wizi</div>
+                </div>
+                <div class="sign-in">
+                    <button class="button">
+                        <img class="logos" src="img/logos.svg" />
+                        <div class="label">Sign in with google</div>
+                    </button>
+                    <div class="text-wrapper-3">Or</div>
+                    <div class="email-password">
+                        <div class="sign-in-form">
+                            <div class="div-2">
+                                <div class="input"><input class="label-2" placeholder="Email" type="email" /></div>
+                            </div>
+                            <div class="password">
+                                <div class="div-2">
+                                    <div class="input">
+                                        <div class="label-3">Password</div>
+                                        <div class="eye"><img class="icon" src="img/icon.svg" /></div>
+                                    </div>
+                                </div>
+                                <div class="forgot-password"><div class="text-wrapper-4">Forgot password?</div></div>
+                            </div>
+                            <button class="button-2"><div class="label">Sign in</div></button>
+                        </div>
+                        <div class="sign-up-terms">
+                            <p class="don-t-have-an">
+                                <span class="span">Don&#39;t have an account?&nbsp;&nbsp;</span>
+                                <span class="text-wrapper-5">Sign up</span>
+                            </p>
+                            <p class="by-signing-in-you">
+                                <span class="text-wrapper-6">By signing in you accept the. </span>
+                                <span class="text-wrapper-7">Terms of Services</span>
+                                <span class="text-wrapper-8"> and <br /></span>
+                                <span class="text-wrapper-7">Privacy Policy.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img class="home-indicator" src="img/home-indicator.svg" />
+            </div>
         </div>
-
-        <div class="form-group">
-          <div class="password-input-wrapper">
-            <label for="password" class="visually-hidden">Password</label>
-            <input
-              type="password"
-              id="password"
-              class="form-input"
-              placeholder="Password"
-              required
-            />
-            <button
-              type="button"
-              class="toggle-password"
-              aria-label="Toggle password visibility"
-            >
-              <svg
-                class="eye-icon"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-          </div>
-          <a href="#" class="forgot-password">Forgot password?</a>
-        </div>
-
-        <button type="submit" class="signin-btn">Sign in</button>
-      </form>
-
-      <p class="signup-prompt">
-        Don't have an account? <a href="#" class="signup-link">Sign up</a>
-      </p>
-
-      <p class="terms-text">
-        By signing in you accept the
-        <a href="#" class="terms-link">Terms of Services</a>
-        and
-        <a href="#" class="terms-link">Privacy Policy</a>.
-      </p>
-    </div>
-  </section>
-
-  <footer class="home-indicator">
-    <svg
-      width="375"
-      height="34"
-      viewBox="0 0 375 34"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect width="375" height="34" fill="white" />
-      <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M114 23.5C114 22.1193 115.119 21 116.5 21H259.5C260.881 21 262 22.1193 262 23.5C262 24.8807 260.881 26 259.5 26H116.5C115.119 26 114 24.8807 114 23.5Z"
-        fill="#0F172A"
-      />
-    </svg>
-  </footer>
-</main>
-
-  </body>
+    </body>
 </html>
