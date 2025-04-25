@@ -1,0 +1,124 @@
+.opening-screen {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.opening-screen .div {
+    background-color: rgba(255, 255, 255, 1.0);
+    background: radial-gradient(
+        50% 50% at 59% 57%,
+        rgba(172, 224, 202, 1) 0%,
+        rgba(174, 224, 228, 1) 56%
+    );
+    width: 375px;
+    height: 812px;
+    position: relative;
+}
+
+.opening-screen .home-indicator {
+    position: absolute;
+    width: 375px;
+    height: 34px;
+    top: 778px;
+    left: 0;
+}
+
+.opening-screen .text-wrapper {
+    position: absolute;
+    width: 307px;
+    height: 97px;
+    top: 282px;
+    left: 31px;
+    opacity: 0.89;
+    font-family: "Zen Dots-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.opening-screen .p {
+    position: absolute;
+    height: 16px;
+    top: 392px;
+    left: 11px;
+    font-family: "Zen Dots-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.opening-screen .text-wrapper-2 {
+    position: absolute;
+    height: 16px;
+    top: 512px;
+    left: 68px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.opening-screen .sign-in {
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    top: 516px;
+    left: 245px;
+}
+
+.opening-screen .progress-bar-button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 375px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 125px;
+    padding: 0px 24px;
+    position: absolute;
+    top: 441px;
+    left: 0;
+}
+
+.opening-screen .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #5ebaba;
+    border-radius: 18px;
+    box-shadow: var(--shadow-xsmall);
+}
+
+.opening-screen .label {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white-900);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.14px;
+    line-height: normal;
+}
